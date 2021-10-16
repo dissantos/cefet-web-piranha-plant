@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px 0;
+    margin: 0 10%
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: limegreen;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: limegreen;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote{
+    text-align: justify;
+    margin: 0 0 0 60px;
+}
+
+img{
+    display: block;
+    width: 300px;
+    border: 8px solid limegreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: grey;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+  }
+
+#estrangeiro-1, #estrangeiro-2, eng{
+    font-style: italic;
+}
+
+#importante{
+    border: 3px solid limegreen;
+    padding: 10px;
+    background-image: url("./imagens/fundo.png");
+}
+
+#pagina-loja{
+    background-image: url("./imagens/desenho-loucao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
